@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Flex</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <!-- NOTE: No copyright infringement intended, FOR EDUCATIONAL PURPOSES ONLY, PRIVATE USE ONLY -->
+    <div class="parent">
+        <div class="row">
+
+            <div class="gamecell white" id="a_8" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_rook1" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/E6EdZH5h.png" />
+            </div>
+            <div class="gamecell black" id="b_8" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_horse1" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/w31jSKah.png" />
+            </div>
+            <div class="gamecell white" id="c_8" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_bishop1" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/Fw6UxdXh.png" />
+            </div>
+            <div class="gamecell black" id="d_8" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_queen" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/ZjvdSBih.png" />
+            </div>
+            <div class="gamecell white" id="e_8" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_king" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/51ylAECh.png" />
+            </div>
+            <div class="gamecell black" id="f_8" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_bishop2" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/wt6Jm7hh.png" />
+            </div>
+            <div class="gamecell white" id="g_8" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_horse2" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/ZVJbNnHh.png" />
+            </div>
+            <div class="gamecell black" id="h_8" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_rook2" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/dPxgpE3h.png" />
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="gamecell white" id="h_7" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_pawn1" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/CQzZ27bh.png" />
+            </div>
+            <div class="gamecell black" id="g_7" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_pawn2" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/CQzZ27bh.png" />
+            </div>
+            <div class="gamecell white" id="f_7" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_pawn3" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/CQzZ27bh.png" />
+            </div>
+            <div class="gamecell black" id="e_7" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_pawn4" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/CQzZ27bh.png" />
+            </div>
+            <div class="gamecell white" id="d_7" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_pawn5" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/CQzZ27bh.png" />
+            </div>
+            <div class="gamecell black" id="c_7" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_pawn6" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/CQzZ27bh.png" />
+            </div>
+            <div class="gamecell white" id="b_7" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_pawn7" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/CQzZ27bh.png" />
+            </div>
+            <div class="gamecell black" id="a_7" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="black_pawn8" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/CQzZ27bh.png" />
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="gamecell white" id="a_6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="b_6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell white" id="c_6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="d_6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell white" id="e_6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="f_6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell white" id="g_6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="h_6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="row">
+
+            <div class="gamecell white" id="h_5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="g_5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell white" id="f_5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="e_5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell white" id="d_5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="c_5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell white" id="b_5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="a_5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="row">
+
+            <div class="gamecell white" id="a_4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="b_4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell white" id="c_4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="d_4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell white" id="e_4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="f_4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell white" id="g_4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="h_4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="row">
+
+            <div class="gamecell white" id="h_3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="g_3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell white" id="f_3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="e_3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell white" id="d_3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="c_3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell white" id="b_3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="gamecell black" id="a_3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="row">
+
+            <div class="gamecell white" id="a_2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_pawn1" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/34waNa0h.png" />
+            </div>
+            <div class="gamecell black" id="b_2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_pawn2" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/34waNa0h.png" />
+            </div>
+            <div class="gamecell white" id="c_2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_pawn3" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/34waNa0h.png" />
+            </div>
+            <div class="gamecell black" id="d_2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_pawn4" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/34waNa0h.png" />
+            </div>
+            <div class="gamecell white" id="e_2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_pawn5" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/34waNa0h.png" />
+            </div>
+            <div class="gamecell black" id="f_2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_pawn6" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/34waNa0h.png" />
+            </div>
+            <div class="gamecell white" id="g_2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_pawn7" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/34waNa0h.png" />
+            </div>
+            <div class="gamecell black" id="h_2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_pawn8" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/34waNa0h.png" />
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="gamecell white" id="h_1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_rook1" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/nL9uaKyh.png" />
+            </div>
+            <div class="gamecell black" id="g_1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_horse1" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/1dmwFqvh.png" />
+            </div>
+            <div class="gamecell white" id="f_1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_bishop1" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/ShBD266h.png" />
+            </div>
+            <div class="gamecell black" id="e_1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_king" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/e2tpfEkh.png" />
+            </div>
+            <div class="gamecell white" id="d_1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_queen" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/zqlOzxsh.png" />
+            </div>
+            <div class="gamecell black" id="c_1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_bishop2" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/7HL8ns5h.png" />
+            </div>
+            <div class="gamecell white" id="b_1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_horse2" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/m8V9l5Ch.png" />
+            </div>
+            <div class="gamecell black" id="a_1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img id="white_rook2" draggable="true" ondragstart="drag(event)"
+                    src="https://i.imgur.com/jmcKlsJh.png" />
+            </div>
+        </div>
+    </div>
+
+    <script src="./chessIntegration.js"></script>
+</body>
+
+</html>
